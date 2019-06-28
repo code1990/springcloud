@@ -21,5 +21,9 @@
 2.修改部门服务provider 将其作为注册中心client端，
 先启动Eureka7001 再启动provider8001 页面访问localhost：7001 可以发现provider注册到服务中心
 
-3.
+3.主机名称:服务名称修改
+修改yml文件添加instance-id 
+先启动Eureka7001 再启动provider8001 页面访问localhost：7001 可以发现provider的服务名称被修改
+
+4.
 
