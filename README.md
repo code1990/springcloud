@@ -13,3 +13,10 @@
 
 4.创建子类module 部门服务consumer
 
+#Eureka注册中心搭建
+
+1.创建注册中心server端，创建完成后 启动项目
+页面访问localhost：7001
+
+2.
+
