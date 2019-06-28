@@ -18,5 +18,8 @@
 1.创建注册中心server端，创建完成后 启动项目
 页面访问localhost：7001
 
-2.
+2.修改部门服务provider 将其作为注册中心client端，
+先启动Eureka7001 再启动provider8001 页面访问localhost：7001 可以发现provider注册到服务中心
+
+3.
 
