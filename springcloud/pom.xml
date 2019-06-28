@@ -12,6 +12,8 @@
     <module>provider</module>
       <module>consumer</module>
       <module>eureka7001</module>
+    <module>eureka7002</module>
+      <module>eureka7003</module>
   </modules>
   <packaging>pom</packaging>
 

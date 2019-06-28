@@ -10,6 +10,8 @@
         <module name="api" />
         <module name="consumer" />
         <module name="eureka7001" />
+        <module name="eureka7002" />
+        <module name="eureka7003" />
         <module name="provider" />
       </profile>
     </annotationProcessing>
