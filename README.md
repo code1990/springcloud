@@ -13,7 +13,7 @@
 
 4.创建子类module 部门服务consumer
 
-#Eureka注册中心搭建
+## 2.Eureka注册中心搭建
 
 1.创建注册中心server端，创建完成后 启动项目
 页面访问localhost：7001
@@ -53,3 +53,23 @@
 再启动provider 页面分别访问7001 7002 7003
 
 -----------------------
+
+## Ribbon客户端负载均衡
+
+1修改Consumer客户端pomxml添加ribbon支持
+2.修改Consumer客户端yml添加ribbon支持
+3.添加@loadbalanced注解 开启支持
+4.主启动类添加@EnableEurekaClient
+
+分别启动7001 7002 7003 注册中心集群
+启动provider注册到eureka
+启动consumer消费服务
+
+----------------------------
+
+
+
+
+
+
+

@@ -18,8 +18,9 @@ http://localhost:8080/consumer/dept/add?dname=AI
 @RestController
 public class DeptControllerConsumer
 {
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
-
+//	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	/*引入 Ribbon相关*/
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 	@Autowired
 	private RestTemplate restTemplate;
 
