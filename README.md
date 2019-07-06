@@ -67,6 +67,23 @@
 
 ----------------------------
 
+客户端负载均衡访问服务provider集群
+
+复制provider项目分别设置为provider8002，provider8003
+
+创建不同的库clouddb02,clouddb03
+
+修改各自的端口号为8002，服务名称8002，数据库clouddb02
+
+首先启动eureka7001，eureka7002，eureka7003
+再启动provider8001，provider8002，provider8003
+页面测试
+启动consumer
+页面测试
+
+---------------------------
+
+
 
 
 
