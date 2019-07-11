@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="consumer" />
+        <module name="consumerdashboard" />
         <module name="consumerfeign" />
         <module name="eureka7001" />
         <module name="eureka7002" />

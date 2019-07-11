@@ -86,6 +86,8 @@
 8002 8003module移动项目时候存在目录结构出现异常 暂时先移除
 只要不影响后面的功能点开发
 
+----------------------------
+
 ## Feign 基于webserver接口的负载均衡
 
 1.api module层添加interface
@@ -100,7 +102,7 @@ http://localhost:8060/consumer/dept/list 正常访问
 
 ------------------------
 
-##Hystrix断路器
+##Hystrix断路器 添加异常支持
 
 1.新增支持Hystrix的module
 
@@ -117,6 +119,35 @@ http://localhost:8060/consumer/dept/get/112 返回预期效果
 表示Hystrix达到预期的效果
 
 ----------------
+
+## 服务降级
+
+修改api module添加fallbackFactory接口实现类
+
+修改consumer工程
+
+依次启动Eureka,provider-feign,consumer
+
+页面验证服务是否降级
+
+------------------------
+
+## dashboard 监控
+
+新增一个consumer dashboard工程
+
+先启动监控dashboard 再启动Eureka,provider-Hystrix,consumer 然后页面验证
+
+--------------------
+
+## zuul 路由网关
+
+
+
+
+
+
+
 
 
 
