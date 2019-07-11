@@ -142,6 +142,12 @@ http://localhost:8060/consumer/dept/get/112 返回预期效果
 
 ## zuul 路由网关
 
+新增一个项目设置路由拦截
+
+主要是config
+
+以及需要配置拦截的内容
+
 
 
 
