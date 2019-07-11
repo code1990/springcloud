@@ -96,9 +96,27 @@
 
 http://localhost:8060/consumer/dept/list 正常访问
 
-表名基于Feign 的webservice服务成功
+表示基于Feign 的webservice服务成功
 
 ------------------------
+
+##Hystrix断路器
+
+1.新增支持Hystrix的module
+
+pomxml添加Hystrix支持
+
+修改DeptController添加统一处理
+
+分别启动Eureka,provider-Hystrix,consumer
+
+页面访问
+
+http://localhost:8060/consumer/dept/get/112 返回预期效果
+
+表示Hystrix达到预期的效果
+
+----------------
 
 
 

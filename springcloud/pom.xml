@@ -15,6 +15,7 @@
     <module>eureka7002</module>
       <module>eureka7003</module>
     <module>consumerfeign</module>
+    <module>providerhystrix</module>
   </modules>
   <packaging>pom</packaging>
 

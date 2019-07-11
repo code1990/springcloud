@@ -14,6 +14,7 @@
         <module name="eureka7002" />
         <module name="eureka7003" />
         <module name="provider" />
+        <module name="providerhystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
