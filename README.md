@@ -86,6 +86,20 @@
 8002 8003module移动项目时候存在目录结构出现异常 暂时先移除
 只要不影响后面的功能点开发
 
+## Feign 基于webserver接口的负载均衡
+
+1.api module层添加interface
+
+2.consumer新增controller 来调用service
+
+3.分别启动Eureka provider consumer
+
+http://localhost:8060/consumer/dept/list 正常访问
+
+表名基于Feign 的webservice服务成功
+
+------------------------
+
 
 
 
