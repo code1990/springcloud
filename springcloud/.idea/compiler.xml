@@ -13,9 +13,11 @@
         <module name="eureka7002" />
         <module name="eureka7003" />
         <module name="provider" />
-        <module name="provider8002" />
-        <module name="provider8003" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provider8002" target="1.8" />
+      <module name="provider8003" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

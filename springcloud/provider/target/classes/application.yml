@@ -33,5 +33,5 @@ eureka:
 info:
   app.name: microservicecloud
   company.name: www.usoft.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: provider
+  build.version: 1.0-SNAPSHOT
